@@ -14,11 +14,27 @@ This project is built with React, TypeScript, and Tailwind CSS.
 - **Responsive UI:** A clean and modern interface that works on all screen sizes.
 - **Loading & Error States:** Clear feedback during API calls and for any potential errors.
 
-## How to Run
+## How to Run Locally
 
-This project is set up to run in modern browser environments that support ES modules, such as Google's AI Studio. No build step is required.
+To run this project on your local machine, you'll need [Node.js](https://nodejs.org/) installed. Then, follow these steps:
 
-If you want to run this project on your own machine, you will need a local development server that can serve the `index.html` file.
+1.  **Install a static server:** Open your terminal and install the `serve` package globally. This is a simple and effective way to serve static files.
+    ```bash
+    npm install -g serve
+    ```
+
+2.  **Navigate to the project directory:** Use the `cd` command to move into the folder where you saved the project files.
+    ```bash
+    cd path/to/your-project-folder
+    ```
+
+3.  **Start the server:** Run the following command to start the local server.
+    ```bash
+    serve
+    ```
+
+4.  **Open in browser:** The terminal will output a local address (usually `http://localhost:3000`). Open this URL in your web browser to use the application.
+
 
 ## How to Use the Application
 
