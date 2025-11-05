@@ -1,0 +1,5 @@
+{
+  "name": "AI Voice Generator",
+  "description": "A text-to-speech application that uses Google's Gemini API to generate high-quality AI voices. Enter text, choose a voice, and listen to or download the generated audio.",
+  "requestFramePermissions": []
+}
